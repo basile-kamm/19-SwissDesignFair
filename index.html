@@ -6,15 +6,16 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,900;1,300;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,900;1,300;1,400&display=swap" rel="stylesheet">
     <title>SwissDesignFair</title>
   </head>
   <body>
     <header>
-      <div class="banner"></div>
-      <a href="#salon">Salon</a>
-      <a href="#expo">Expo</a>
-      <a href="#infos">Infos</a>
+      <nav>
+        <a href="#salon">Salon</a>
+        <a href="#expo">Expo</a>
+        <a href="#infos">Infos</a>
+      </nav>
       <h1>
         Swiss <br> Design <br> Fair
       </h1>
@@ -22,44 +23,48 @@
     <main>
       <h2 id="salon">Salon</h2>
       <div class="content">
-        <p class="intro">
-          Le SwissDesignFair a été créé en 1995 pour mettre en valeur et 
-          promouvoir le design et l’architecture d’intérieur suisses.
-        </p>
-        <p>
-          La créativité formelle et ingénieurale des produits, la qualité des 
-          matériaux et la finesse des réalisations en font un Salon à la 
-          renommée mondiale.
-        </p>
-        <p>
-          Durant six jours, le SwissDesignFair accueille des grandes marques, 
-          des industriels, des éditeurs de meubles et des créateurs indépendants.
-        </p>
-        <ul>
-          <li>6 jours</li>
-          <li>150 exposants</li>
-          <li>280 marques</li>
-          <li>1 portrait rétrospetive</li>
-          <li>1 exposition thématique</li>
-        </ul>
+        <div class="border-left">
+          <p class="intro">
+            Le SwissDesignFair a été créé en 1995 pour mettre en valeur et 
+            promouvoir le design et l’architecture d’intérieur suisses.
+          </p>
+          <p>
+            La créativité formelle et ingénieurale des produits, la qualité des 
+            matériaux et la finesse des réalisations en font un Salon à la 
+            renommée mondiale.
+          </p>
+          <p>
+            Durant six jours, le SwissDesignFair accueille des grandes marques, 
+            des industriels, des éditeurs de meubles et des créateurs indépendants.
+          </p>
+          <ul>
+            <li>6 jours</li>
+            <li>150 exposants</li>
+            <li>280 marques</li>
+            <li>1 portrait rétrospetive</li>
+            <li>1 exposition thématique</li>
+          </ul>
+        </div>
         <img src="img/salon.jpg" alt="Salon du SwissDesignFair">
       </div>
       <h2 id="expo">Arne Jacobsen</h2>
       <div class="content">
-        <p class="intro">
-          Bienvenue à l'exposition consacrée à Arne Jacobsen, l'un des 
-          designers majeurs du 20e siècle. Découvrez ses créations 
-          révolutionnaires à travers cinq des points majeurs de son travail :
-        </p>
-        <ul>
-          <li>Minimalisme</li>
-          <li>Formes organiques</li>
-          <li>Architecture visionnaire</li>
-          <li>Harmonie des matériaux</li>
-          <li>L'empreinte scandinave</li>
-        </ul>
+        <div class="border-left">
+          <p class="intro">
+            Bienvenue à l'exposition consacrée à Arne Jacobsen, l'un des 
+            designers majeurs du 20e siècle. Découvrez ses créations 
+            révolutionnaires à travers cinq des points majeurs de son travail :
+          </p>
+          <ul>
+            <li>Minimalisme</li>
+            <li>Formes organiques</li>
+            <li>Architecture visionnaire</li>
+            <li>Harmonie des matériaux</li>
+            <li>L'empreinte scandinave</li>
+          </ul>
+        </div>
         <img src="img/arne-jacobsen.jpg" alt="portrait de Arne Jacobsen">
-        <p>
+        <p class="border-left">
           Cette exposition vous offre une occasion unique de découvrir 
           l'héritage durable d'Arne Jacobsen et son impact sur le monde du 
           design. Préparez-vous à être inspiré par son esthétique intemporelle 
@@ -67,49 +72,51 @@
           design du monde entier.
         </p>
         <div class="content-container">
-          <p>Ant, 1952</p>
-          <img src="img/ant-chair.png" alt="Chaise Ant">
+          <p class="border-left">Ant, 1952</p>
+          <img src="img/ant-chair.png" alt="Chaise Ant" class="chair">
         </div>
         <div class="content-container">
-          <img src="img/egg-chair.png" alt="Chaise Egg">
-          <p>Egg, 1958</p>
+          <img src="img/egg-chair.png" alt="Chaise Egg" class="chair">
+          <p class="border-right">Egg, 1958</p>
         </div>
       </div>
       <h2>Paddles MAUI</h2>
       <div class="content">
-        <p class="intro">
+        <p class="intro border-left">
           Bienvenue à l'exposition sensationnelle des paddles MAUI sur le 
           thème des chanteurs des années 50, 60 et 70. 
         </p>
         <div class="content-container">
-          <p>Elvis Presley</p>
-          <img src="img/paddle-elvis.png" alt="Paddle Elvis Presley">
+          <p class="border-left">Elvis Presley</p>
+          <img src="img/paddle-elvis.png" alt="Paddle Elvis Presley" class="paddle">
         </div>
         <div class="content-container">
-          <img src="img/paddle-james.png" alt="Paddle James Brown">
-          <p>James Brown</p>
+          <img src="img/paddle-james.png" alt="Paddle James Brown" class="paddle">
+          <p class="flex-right border-right">James Brown</p>
         </div>
         <div class="content-container">
-          <p>Elton John</p>
-          <img src="img/paddle-elton.png" alt="Paddle Elton John">
+          <p class="border-left">Elton John</p>
+          <img src="img/paddle-elton.png" alt="Paddle Elton John" class="paddle">
         </div>
-        <p>
-          En plus de contempler ces paddles uniques, les visiteurs pourront 
-          également profiter d'animations interactives et de performances 
-          musicales inspirées des chansons emblématiques de ces artistes 
-          légendaires.
-        </p>
-        <p>
-          Ne manquez pas cette occasion unique de découvrir la fusion entre la 
-          musique et les sports nautiques grâce à cette exposition MAUI Paddles. 
-          <span>Swingez sur les vagues</span> avec les icônes de la musique et 
-          laissez-vous inspirer par la créativité et l'originalité de ces 
-          designs uniques.
-        </p>
+        <div class="border-left">
+          <p>
+            En plus de contempler ces paddles uniques, les visiteurs pourront 
+            également profiter d'animations interactives et de performances 
+            musicales inspirées des chansons emblématiques de ces artistes 
+            légendaires.
+          </p>
+          <p>
+            Ne manquez pas cette occasion unique de découvrir la fusion entre la 
+            musique et les sports nautiques grâce à cette exposition MAUI Paddles. 
+            <span>Swingez sur les vagues</span> avec les icônes de la musique et 
+            laissez-vous inspirer par la créativité et l'originalité de ces 
+            designs uniques.
+          </p>
+        </div>
       </div>
       <h2 id="infos">Infos</h2>
       <div class="content">
-        <p>
+        <p class="border-left">
           6 au 11 juin 2023 <br>
           10:00 – 21:00<br>
           <br>
