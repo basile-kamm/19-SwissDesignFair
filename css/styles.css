@@ -2,9 +2,11 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
   display: block;
   max-width: 100%;
 }
+
