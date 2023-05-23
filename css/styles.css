@@ -6,6 +6,10 @@ body {
   background-image: url(../img/background.svg);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -13,25 +17,28 @@ img {
 
 nav {
   display: flex;
-  flex-direction: row;
-  justify-content: end;
+  flex-direction: column;
+  justify-content: start;
   padding: 10px;
 }
 
 nav a {
-  color: #eee;
+  color: #000;
   margin: 0 5px;
   font-style: italic;
+  border-left: 2px solid #000;
+  padding-left: 8px;
+  font-size: 24px;
 }
 
 h1 {
   color: #eee;
-  font-style: italic;
-  border-left: 1px solid #eee;
+  background-color: #000;
   padding:  8px;
-  margin: 400px 8px 10px;
-  font-size: 44px;
-  font-weight: 300;
+  margin: 100px 8px 100px;
+  font-size: 88px;
+  font-weight: 900;
+  text-align: center;
 }
 
 h2 {
@@ -93,7 +100,7 @@ ul {
 footer {
   display: flex;
   flex-direction: row;
-  padding: 20px 20px 10px;
+  padding: 20px 30px 10px;
   justify-content: space-between;
   background: #eee;
 
